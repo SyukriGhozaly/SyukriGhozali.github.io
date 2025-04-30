@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Rental Mobil</title>
+    <link rel="stylesheet" href="rent.css">
+</head>
+<body>
+    <h1>Rental Mobil</h1>
+
+    <div class="mobil-list">
+        <div class="mobil" onclick="pilihMobil('Toyota Avanza', 300000)">
+            <img src="avanza.jpg" alt="Toyota Avanza">
+            <h3>Toyota Avanza</h3>
+            <p>Rp 300.000 / hari</p>
+        </div>
+        <div class="mobil" onclick="pilihMobil('Daihatsu Xenia', 280000)">
+            <img src="daihatsu-xenia.webp" alt="Daihatsu Xenia" width="200" height="200">
+            <h3>Daihatsu Xenia</h3>
+            <p>Rp 280.000 / hari</p>
+        </div>
+    </div>
+
+    <h2>Formulir Sewa Mobil</h2>
+    <form id="formSewa" onsubmit="return prosesForm()">
+        <label>Nama: <input type="text" id="nama" required></label><br>
+        <label>Mobil: <input type="text" id="mobil" readonly required></label><br>
+        <label>Harga/Hari: <input type="text" id="harga" readonly required></label><br>
+        <label>Lama Sewa (hari): <input type="number" id="lama" min="1" required></label><br>
+        <button type="submit">Pesan</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
