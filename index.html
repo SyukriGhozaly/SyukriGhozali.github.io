@@ -1,38 +1,43 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rental Mobil</title>
-    <link rel="stylesheet" href="rent.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentCar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="jpg" href="rental.jpg">
 </head>
-<body>
-    <h1>Rental Mobil</h1>
+<body>       
+    <div class="navbar1">
+        <div class="nav-links">
 
-    <div class="mobil-list">
-        <div class="mobil" onclick="pilihMobil('Toyota Avanza', 300000)">
-            <img src="avanza.jpg" alt="Toyota Avanza">
-            <h3>Toyota Avanza</h3>
-            <p>Rp 300.000 / hari</p>
-        </div>
-        <div class="mobil" onclick="pilihMobil('Daihatsu Xenia', 280000)">
-            <img src="daihatsu-xenia.webp" alt="Daihatsu Xenia" width="200" height="200">
-            <h3>Daihatsu Xenia</h3>
-            <p>Rp 280.000 / hari</p>
-        </div>
+            <a href="index.html">Beranda</a>
+            <a href="tentang.html">Tentang</a>
+            <a href="kegiatan.html">Kegiatan</a>
+            <a href="https://wa.me/qr/Q2XTFOSZCJXAJ1">Kontak</a>
+
     </div>
+    </div>
+    <div class="navbar">
+        <div class="logo"><strong>RentCar KILAT</strong></div>
+        </div>
 
-    <h2>Formulir Sewa Mobil</h2>
-    <form id="formSewa" onsubmit="return prosesForm()">
-        <label>Nama: <input type="text" id="nama" required></label><br>
-        <label>Mobil: <input type="text" id="mobil" readonly required></label><br>
-        <label>Harga/Hari: <input type="text" id="harga" readonly required></label><br>
-        <label>Lama Sewa (hari): <input type="number" id="lama" min="1" required></label><br>
-        <button type="submit">Pesan</button>
-    </form>
 
-    <div id="output"></div>
-
-    <script src="script.js"></script>
+    <h4>Solusi Transportasi Nyaman di Cilacap.</h4>
+    <section class="iklan">
+       <p id="welcome">Sewa mobil murah & terpercaya di Banyuwangi. Tersedia lepas kunci & dengan sopir. 
+        Unit bersih, terawat, dan siap pakai. Proses cepat, harga bersahabat!</p>
+    </section>
+    <section>
+        <h3>Tentang Cilacap</h3>
+        <p id="deskripsi">
+        Cilacap adalah sebuah kabupaten yang terletak di Provinsi Jawa Tengah, Indonesia, yang memiliki posisi strategis di bagian selatan Pulau Jawa. 
+        Kabupaten ini berbatasan langsung dengan Samudra Hindia di sebelah selatan, dan memiliki pelabuhan penting yang berfungsi sebagai pintu gerbang perdagangan serta distribusi barang di wilayah selatan Jawa.
+        Berikut adalah beberapa aspek penting tentang Cilacap:
+</p>
+    </section>
 </body>
-</html>
+<marquee>Selamat Datang di Website <strong>RentCar</strong>. Rental Mobil Cilacap</marquee>
+<footer><marquee>@2025 RentCar KILAT Hak Dilindungi</marquee></footer>
 
+</html>

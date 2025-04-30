@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> tentang </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="website icon" type="jpg" href="rental.jpg">
+    </head>
+    <body>
+        <div class="navbar1">
+            <div class="nav-links">
+    
+                <a href="index.html">Beranda</a>
+                <a href="tentang.html">Tentang</a>
+                <a href="kegiatan.html">Kegiatan</a>
+                <a href="https://wa.me/qr/Q2XTFOSZCJXAJ1">Kontak</a>
+    
+        </div>
+        </div>
+        <div class="navbar">
+            <div class="logo"><strong>RentCar KILAT</strong></div>
+            </div>
+        <h1>Harga Mobil</h1>
+
+        <div class="mobil" onclick="pilihMobil('Toyota Avanza', 300000)">
+            <img src="avanza.jpg" alt="Toyota Avanza" width="200" height="200">
+            <h3>Toyota Avanza</h3>
+            <p>Rp 300.000 / hari</p>
+        </div>
+        <div class="mobil" onclick="pilihMobil('xenia', 300000)">
+            <img src="xenia.jpg" alt="Xenia" width="200" height="200">
+            <h3>Toyota Xenia</h3>
+            <p>Rp 350.000 / hari</p>
+        </div>
+        <div class="mobil" onclick="pilihMobil('Lamborghini',  300000)">
+            <img src="lambo.png" alt="Toyota Avanza" width="200" height="200">
+            <h3>Lamborghini</h3>
+            <p>Rp 15.000.000 / hari</p>
+        </div>
+        <div class="mobil" onclick="pilihMobil('Toyota Agya', 300000)">
+            <img src="agya.jpg" alt="Toyota Agya" width="200" height="200">
+            <h3>Toyota agya</h3>
+            <p>Rp 250.000 / hari</p>
+        </div>
+        <div class="mobil" onclick="pilihMobil('Toyota Inova', 300000)">
+            <img src="inova.jpg" alt="Toyota Inova" width="200" height="200">
+            <h3>Inova Reborn</h3>
+            <p>Rp 600.000 / hari</p>
+        </div>
+        <div class="mobil" onclick="pilihMobil('Toyota Alphard', 300000)">
+            <img src="alphard.jpg" alt="Toyota Alphard" width="200" height="200">
+            <h3> alphard</h3>
+            <p>Rp 1.000.000 / hari</p>
+        </div>
+        <div class="mobil" onclick="pilihMobil('Toyota Inova2025', 300000)">
+            <img src="diesel.jpg" alt="Toyota Inova 2015" width="200" height="200">
+            <h3> Inova 2015</h3>
+            <p>Rp 400.000 / hari</p>
+        </div>
+            <div class="mobil" onclick="pilihMobil('L-300', 300000)">
+                <img src="l300.jpg" alt="Mitsubhisi L300" width="200" height="200">
+                <h3>L-300 </h3>
+                <p>Rp 150.000 / hari</p>
+            </div>
+        </div>
+        <form class="number" id="sewa">
+        <label for="mobil">Mobil :
+        </label>
+        <select>
+            <option value="Avanza">Avanza</option>
+            <option value="Xenia">Xenia</option>
+            <option value="Lambo">Lamborghini</option>
+            <option value="Agya">Agya</option>
+            <option value="Reborn">Inova Reborn</option>
+            <option value="Alphard">Alphard</option>
+            <option value="Inova">Inova 2015/option>
+            <option value="L-300">L-300</option>
+        </select><br>
+        <label for="hari">Jumlah Hari :
+            <input type="number"></input>
+        </label><br>
+
+        <button onclick="hitung">Hitung</button>
+        <button onclick="Ulang">Ulang</button>
+
+        <script href="main.js"></script>
+        <marquee>Selamat Datang di Website <strong>RentCar</strong>. Rental Mobil Cilacap</marquee>
+
+    </body>
+    <footer><marquee>@2025 RentCar KILAT Hak Dilindungi</marquee></footer>
+</html>
